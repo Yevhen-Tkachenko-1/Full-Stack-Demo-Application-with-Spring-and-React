@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import SingleContact from './SingleContact'
+import SingleContact from './SingleContact';
+import AddContact from './AddContact';
 
 export default class Contacts extends Component {
     constructor(props){
@@ -17,10 +18,15 @@ export default class Contacts extends Component {
 
     render() {
         const content = (
-            <div className="row">
-                { this.state.contacts.map((item) => (
-                    <SingleContact key={item.id} item={item} />
-                ))}
+            <div>
+                <div className="row">
+                    <AddContact />
+                </div>
+                <div className="row">
+                    { this.state.contacts.map((item) => (
+                        <SingleContact key={item.id} item={item} />
+                    ))}
+                </div>
             </div>
         )
         return content;
