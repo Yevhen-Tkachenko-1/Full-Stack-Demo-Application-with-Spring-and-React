@@ -15,7 +15,9 @@ Implemented based on LinkedIn learning course:
 
 - Java 17
 - Maven
-- Spring Boot 3.1.1
+- Spring Boot 3.1.1 (data-jpa, web, test)
+- H2 database
+- Lombok
 - Node.js 18.16.1
 - React 18.2.0
 
