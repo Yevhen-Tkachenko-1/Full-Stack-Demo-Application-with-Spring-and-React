@@ -1,6 +1,16 @@
 # Full-Stack demo application with Spring and React
 Learn and play with Full-Stack development using Spring and React
 
+Topics covered:
+- Setting up the JPA repository
+- Building the endpoints for the HTTP class controller
+- Creating the front-end components
+- Styling components
+- Connecting component to the server
+
+Implemented based on LinkedIn learning course: 
+[Building Full-Stack Apps with React and Spring](https://www.linkedin.com/learning/building-full-stack-apps-with-react-and-spring)
+
 ### Tech stack
 
 - Java 17
